@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("test")
+	http.ListenAndServe(":3000", controllers.Handlers())
 }
