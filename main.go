@@ -1,9 +1,7 @@
 package main
 
-import (
-	"net/http"
-)
+import "fmt"
 
 func main() {
-	http.ListenAndServe(":3000", controll)
+	fmt.Println("test")
 }
